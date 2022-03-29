@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto:wght@300;400;700&display=swap');
+body {
+    background-color: #2A5532;
+}
+
+.header {
+    position: absolute;
+    width: 1159px;
+    height: 46px;
+    left: 80px;
+    top: 26px;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: inherit;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: 550px;
+}
+
+#logo {
+    text-decoration: none;
+    left: 19.44%;
+    right: 80.15%;
+    top: 7.59%;
+    bottom: 82.77%;
+}
+#logo:hover{
+    left: 13.44%;
+    right: 90.15%;
+}
+
+.topnav {
+    overflow: hidden;
+    float: right;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 26px 10px 26px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    font-size: 22px;
+    text-shadow: 3px 3px 2px #ffffff;
+}   
+#rounded:hover {
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #2A5532;
+}
+
+#rounded {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 51px;
+}
+
+#shadow {
+    position: absolute;
+    width: 724px;
+    height: 634px;
+    left: -26px;
+    top: -9px;
+}
+
+#citrouille {
+    position: absolute;
+    left: 10.14%;
+    right: 52.92%;
+    top: 20.7%;
+    bottom: 29%;
+    width: 30%;
+}
+
+#pointer {
+    position: absolute;
+    left: 23.26%;
+    right: 76.18%;
+    top: 66.7%;
+    bottom: 23.54%;
+    width: -1%;
+}
+
+#t1 {
+    position: absolute;
+    height: 23px;
+    left: 52%;
+    top: 18%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+#t2 {
+    position: absolute;
+    height: 213px;
+    left: 52%;
+    top: 20%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 111%;
+    /* or 71px */
+    color: #FFFFFF;
+}
+
+#t3 {
+    position: absolute;
+    width: 380px;
+    height: 78px;
+    left: 52%;
+    top: 55%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 146%;
+    /* or 26px */
+    color: #FFFFFF;
+}
+
+#b1 {
+    position: absolute;
+    left: 52%;
+    right: 31.25%;
+    top: 75%;
+    bottom: 31.35%;
+}
+
+#citrouille {
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+#shadow {
+    -webkit-animation: mover1 4s infinite alternate;
+    animation: mover1 4s infinite alternate;
+}
+
+#shadow {
+    stroke: transparent;
+    stroke-width: 0px;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@-webkit-keyframes mover1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
+
+@keyframes mover1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
